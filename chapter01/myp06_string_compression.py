@@ -55,7 +55,7 @@ class Test_String_Compression(unittest.TestCase):
         update_str_compre
     ]
 
-    def test_one_away(self):
+    def test_string_compression(self):
         number_runs = 1000
         run_times = defaultdict(float)
         for _ in range(number_runs):
